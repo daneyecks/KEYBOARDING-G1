@@ -1,0 +1,948 @@
+body {
+	background: papayawhip;
+	margin: 0px;
+	
+	padding: 0;
+	
+}
+
+
+		
+
+
+#hero { 	
+	margin-top: 70px;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.7);
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	display: none;
+	z-index: 2;
+	
+}
+.hide button {
+	float: right;
+	padding: 8px;
+	background: rgba(0,139,139,1);
+	color: white;
+	font-size: 15px;
+}
+
+.form-box {
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 0 auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+	background: white;
+}
+.toggle-btn {
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+	transition: .5s;
+}
+.social-icons {
+	margin: 30px auto;
+	text-align: center;
+	background: white;
+}
+.social-icons img {
+	width: 30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.input-group {
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	background: white;
+}
+.input-field {
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn {
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: Linear-gradient(to right, #ff105f,#ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box {
+	margin: 30px 10px 30px 0;
+	background: white;
+}
+span {
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+	background: white;
+}
+#Login {
+	left: 50px;
+}
+#register {
+	left: 450px;
+}		
+
+section {
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+
+}
+section.sec1 {
+	position: relative;
+	background: url(a1.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec1 .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec1 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 50px;
+	font-variant: small-caps;
+	color: white;
+	font-weight: normal;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec1 .intext p {
+	font-family: Arial;
+	font-size: 55px;
+	font-weight: bold;
+	color: white;
+	padding: 0;
+	top: 100px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec1 .intext .btn {
+	width: 280px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: normal;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec1 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec1 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec1 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec1 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec1 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec1 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+section.sec2 {
+	background: url(a2.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec2 .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec2 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 55px;
+	font-variant: small-caps;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec2 .intext p {
+	font-family: Arial;
+	font-size: 50px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec2 .intext .btn {
+	width: 280px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: normal;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec2 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec2 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec2 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec2 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec2 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec2 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+
+section.sec3 {
+	background: url(a3.jfif);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec3 .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec3 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 55px;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec3 .intext p {
+	font-family: Arial;
+	font-size: 50px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec3 .intext .btn {
+	width: 250px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: normal;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec3 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec3 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec3 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec3 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec3 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec3 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+
+section.sec4 {
+	background: url(a4.jfif);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec4 .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec4 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 55px;
+	color: white;
+	font-weight: normal;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec4 .intext p {
+	font-family: Arial;
+	font-size: 55px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec4 .intext .btn {
+	width: 250px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: none;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec4 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec4 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec4 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec4 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec4 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec4 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+
+section.sec5 {
+	position: relative;
+	background: url(a5.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec5 .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec5 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 50px;
+	font-variant: small-caps;
+	color: white;
+	font-weight: normal;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec5 .intext p {
+	font-family: Arial;
+	font-size: 55px;
+	font-weight: bold;
+	color: white;
+	padding: 0;
+	top: 100px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec5 .intext .btn {
+	width: 280px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: normal;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec5 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec5 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec5 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec5 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec5 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec5 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+section.sec6 {
+	background: url(a6.jfif);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec6 .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec6 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 55px;
+	font-variant: small-caps;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec6 .intext p {
+	font-family: Arial;
+	font-size: 50px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec6 .intext .btn {
+	width: 280px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: normal;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec6 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec6 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec6 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec6 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec6 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec6 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+
+section.sec7 {
+	background: url(a7.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec7 .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec7 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 55px;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec7 .intext p {
+	font-family: Arial;
+	font-size: 50px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec7 .intext .btn {
+	width: 250px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: normal;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec3 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec7 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec7 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec7 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec7 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec7 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+
+section.sec8 {
+	background: url(a8.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec8 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 55px;
+	color: white;
+	font-weight: normal;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec8 .intext p {
+	font-family: Arial;
+	font-size: 55px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec8 .intext .btn {
+	width: 250px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: none;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec8 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec8 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec8 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec8 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec8 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec8 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+section.sec9 {
+	background: url(a9.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+section.sec .intext{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7s);
+	display: flex;
+}
+section.sec9 .intext h2 {
+	top: 70px;
+	left: 120px;
+	font-family: Arial;
+	font-size: 55px;
+	color: white;
+	font-weight: normal;
+	padding: 0;
+	float: left;
+	position: absolute;
+}
+section.sec9 .intext p {
+	font-family: Arial;
+	font-size: 55px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	top: 120px;
+	left: 120px;
+	position: absolute;
+}
+
+section.sec9 .intext .btn {
+	width: 250px;
+	height: 40px;
+	top: 50%;
+	float: left;
+	left: 110px;
+	background: rgba(0,0,0,.5);
+	border: 4px solid;
+	box-sizing: border-box;
+	box-shadow: 0 18px 36px rgba(255,255,255,0.30), 0 14px 11px rgba(255,255,255,0.22);
+
+	color: #05f1c9;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: none;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+}
+section.sec9 .intext .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section.sec9 .intext .btn::before,.btn::after {
+	content:"";
+	position: absolute;
+	width: 14px;
+	height: 5px;
+	background: red;
+	transform: skewX(50deg);
+	transition: .5s linear;
+}
+section.sec9 .intext .btn::before {
+	top: -4px;
+	left: 10%;
+}
+section.sec9 .intext .btn::after {
+	bottom: -4px;
+	right: 10%;
+}
+section.sec9 .intext .btn:hover::before {
+	left: 80%;
+}
+section.sec9 .intext .btn:hover::after {
+	right: 80%;	
+}	 	 
+
+
+
+
+
+section.sectext {
+	padding: 50px 100px;
+	height: auto;
+}
+section.sectext h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 35px;
+	color: #262626;
+}
+section.sectext p {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #262626;
+}
+	 
